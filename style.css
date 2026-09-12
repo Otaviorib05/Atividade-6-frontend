@@ -1,0 +1,78 @@
+
+/* ===== IDENTIDADE VISUAL ===== */
+/* O layout responsivo (grid, flexbox, breakpoints) agora é feito
+   inteiramente pelas classes do Bootstrap no HTML.
+   Este arquivo cuida apenas de cores, fontes e detalhes visuais. */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f2ec;
+  color: #2b2b2b;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+.cabecalho {
+  background-color: #2b2b2b !important;
+}
+
+.logo {
+  font-size: 1.4rem;
+  color: #fff !important;
+}
+
+.cabecalho .nav-link {
+  color: #fff !important;
+}
+
+.cabecalho .nav-link:hover {
+  color: #c9a24b !important;
+  text-decoration: underline;
+}
+
+/* Seções */
+.secao {
+  padding: 40px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.secao h2 {
+  color: #2b2b2b;
+  margin-bottom: 1.5rem;
+}
+
+/* Imagem da seção "Sobre" */
+.sobre-imagem {
+  max-width: 300px;
+}
+
+/* Membros da equipe */
+.membro-foto {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+/* Cards de discos (Bootstrap card já cuida da estrutura) */
+.disco img {
+  object-fit: cover;
+}
+
+/* Botão de envio do formulário */
+.btn-contato {
+  background-color: #c9a24b;
+  color: #2b2b2b;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-contato:hover {
+  background-color: #b4552f;
+  color: #fff;
+}
+
+/* Rodapé */
+.rodape {
+  background-color: #2b2b2b;
+  color: #fff;
+}
